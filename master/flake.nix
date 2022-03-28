@@ -11,6 +11,7 @@
   inputs.src-edn-master.ref   = "refs/heads/master";
   inputs.src-edn-master.owner = "rosado";
   inputs.src-edn-master.repo  = "edn.nim";
+  inputs.src-edn-master.dir   = "";
   inputs.src-edn-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

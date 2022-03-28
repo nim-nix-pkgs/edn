@@ -11,6 +11,7 @@
   inputs.src-edn-0_2_3.ref   = "refs/tags/0.2.3";
   inputs.src-edn-0_2_3.owner = "rosado";
   inputs.src-edn-0_2_3.repo  = "edn.nim";
+  inputs.src-edn-0_2_3.dir   = "";
   inputs.src-edn-0_2_3.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
